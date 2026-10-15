@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: bookstore
-        image: YOUR_DH/bookstore:v1
+        image: kavipriya1928/bookstore:v1
         ports:
         - containerPort: 80
         readinessProbe:
